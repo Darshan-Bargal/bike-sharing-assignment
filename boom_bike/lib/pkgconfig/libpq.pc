@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: 
+Cflags: -I/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include
+Libs: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpq
+Libs.private: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpgcommon -lpgport -lssl -lcrypto -lgssapi_krb5 -lm

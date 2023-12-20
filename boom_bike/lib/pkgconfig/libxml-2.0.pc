@@ -1,0 +1,13 @@
+prefix=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lz -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -llzma -lpthread -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -liconv -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include 

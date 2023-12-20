@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include
+Libs: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lecpg_compat
+Libs.private: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpgcommon -lpgport -lpq -lm

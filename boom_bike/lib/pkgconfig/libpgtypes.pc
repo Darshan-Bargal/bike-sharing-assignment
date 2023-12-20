@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: 
+Cflags: -I/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include
+Libs: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpgtypes
+Libs.private: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpgcommon -lpgport -lm

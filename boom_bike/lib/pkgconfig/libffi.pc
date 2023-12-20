@@ -1,0 +1,11 @@
+prefix=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

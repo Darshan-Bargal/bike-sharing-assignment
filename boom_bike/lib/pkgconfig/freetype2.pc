@@ -1,0 +1,14 @@
+prefix=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike
+exec_prefix=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike
+libdir=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib
+includedir=/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lfreetype
+Libs.private: -lz -L/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

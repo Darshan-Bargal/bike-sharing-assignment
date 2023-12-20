@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/Users/darshan.bargal/Desktop/Data_science/linear_regression/boom_bike/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": false
+ }
+}
